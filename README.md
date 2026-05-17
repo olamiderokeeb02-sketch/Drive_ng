@@ -80,7 +80,7 @@ Collected dataset of used cars in Nigeria.
 
 ### Clone the repository 
 ```
-git clone (https://github.com/olamiderokeeb02-sketch/Drive_ng.git)
+git clone (https://github.com/olamiderokeeb02-sketch/car-price-predictor.git)
 ```
 cd drivevalue-nigeria
 ### Move into the project directory
