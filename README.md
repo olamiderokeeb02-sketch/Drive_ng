@@ -1,4 +1,4 @@
-# DriveValue Nigeria - Nigerian Car Price Predictor
+# 🚗 DriveValue Nigeria - Nigerian Car Price Predictor
 
 This is a machine learning web application that predicts the market price of used cars in Nigeria. Users can input car details and instantly receive an estimated price in Naira.
 
@@ -8,7 +8,7 @@ The model is built using a Random Forest Regressor and includes SHAP (SHapley Ad
 ### Live App Link -> https://driveng-2hhrwddtcvqrhwagpzpejz.streamlit.app/#estimated-car-price-predictor
 ---
 
-## Project Overview
+## 📌 Project Overview
 
 DriveValue Nigeria helps users:
 - Estimate used car prices in Nigeria
@@ -17,7 +17,7 @@ DriveValue Nigeria helps users:
 
 ---
 
-## Features
+## 📊 Features
 
 - User-friendly web interface built with Streamlit
 - Real-time car price prediction
@@ -27,18 +27,18 @@ DriveValue Nigeria helps users:
 
 ---
 
-## Machine Model Used
+## 🧠 Machine Model Used
 - Random Forest Regressor (Best Performing Model)✔️
   
 ---
 
-## Key findings
+## 🔑 Key findings
 - A tuned Randon Forest outperforned a Linear Regression baseline, achieving an MAE of N[1.27]M and an R2 of [0.537] on the held-out test set of predicted price
 - SHAP analysis identified [top feature e.g. year], [2nd feature e.g. mileage_kn], and [3rd feature e.g. brand] as the strongest drivers
 - Never cars and lover mileage consistently oushed predictions hioher, contirmind real-world intuition about the Nigerian used car market
 ---
 
-## Machine Learning Model
+## 🧠 Machine Learning Model
 
 - Algorithm: Random Forest Regressor
 - Explainability: SHAP (SHapley Additive exPlanations)
@@ -47,7 +47,7 @@ DriveValue Nigeria helps users:
 
 ---
 
-## Project Workflow
+## 📝 Project Workflow
 
 ### 1. Data Collection
 Collected dataset of used cars in Nigeria.
