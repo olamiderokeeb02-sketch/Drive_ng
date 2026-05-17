@@ -5,6 +5,8 @@ This is a machine learning web application that predicts the market price of use
 The model is built using a Random Forest Regressor and includes SHAP (SHapley Additive exPlanations) for model explainability, helping users understand which features influence the predicted price.
 
 ---
+### Live App Link -> https://driveng-2hhrwddtcvqrhwagpzpejz.streamlit.app/#estimated-car-price-predictor
+---
 
 ## Project Overview
 
@@ -27,11 +29,15 @@ DriveValue Nigeria helps users:
 
 ## Machine Model Used
 - Random Forest Regressor (Best Performing Model)✔️
+  
 ---
+
 ## Key findings
 - A tuned Randon Forest outperforned a Linear Regression baseline, achieving an MAE of N[1.27]M and an R2 of [0.537] on the held-out test set of predicted price
 - SHAP analysis identified [top feature e.g. year], [2nd feature e.g. mileage_kn], and [3rd feature e.g. brand] as the strongest drivers
 - Never cars and lover mileage consistently oushed predictions hioher, contirmind real-world intuition about the Nigerian used car market
+---
+
 ## Machine Learning Model
 
 - Algorithm: Random Forest Regressor
@@ -73,18 +79,24 @@ Collected dataset of used cars in Nigeria.
 ## Installation
 
 ### Clone the repository 
-git clone (https://github.com/olamiderokeeb1-spec/car-price-predict.git)
+```
+git clone ((https://github.com/olamiderokeeb02-sketch/Drive_ng.git))
+```
 cd drivevalue-nigeria
 ### Move into the project directory
+```
 cd your-repository-name
+```
 ### Install required packages
+```
 pip install -r requirements.txt
+```
 ## Running the App
 
 ### Run the Streamlit app locally
-
+```
 streamlit run app.py
-
+```
 #### Then open the generated local URL in your browser.
 
 ## Future Improvements
