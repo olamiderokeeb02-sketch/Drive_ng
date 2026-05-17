@@ -28,6 +28,10 @@ DriveValue Nigeria helps users:
 ## Machine Model Used
 - Random Forest Regressor (Best Performing Model)✔️
 ---
+## Key findings
+- A tuned Randon Forest outperforned a Linear Regression baseline, achieving an MAE of N[1.27]M and an R2 of [0.537] on the held-out test set of predicted price
+- SHAP analysis identified [top feature e.g. year], [2nd feature e.g. mileage_kn], and [3rd feature e.g. brand] as the strongest drivers
+- Never cars and lover mileage consistently oushed predictions hioher, contirmind real-world intuition about the Nigerian used car market
 ## Machine Learning Model
 
 - Algorithm: Random Forest Regressor
@@ -60,6 +64,7 @@ Collected dataset of used cars in Nigeria.
 
 ### 6. Model Explainability
 - Used SHAP to interpret feature importance
+
 
 ---
 
